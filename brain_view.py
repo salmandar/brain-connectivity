@@ -10,7 +10,7 @@ def flatmaps(sub,roi):
 	import time
 	import os
 	import scipy.io as sio
-
+	#shano mota alu
 	#subjects={'AH','DS','JG','ML','WH'}   
 	file=sio.loadmat('/auto/data/salman/data/{0}_flatmap.mat'.format(sub))
 	data=file['data']
